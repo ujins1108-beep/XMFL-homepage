@@ -1,0 +1,22 @@
+.Headerbox {
+    background-color: rgb(43, 43, 43);
+    width: 65%;
+    height: 8vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    box-shadow: 0 3px 30px rgb(18, 18, 18);
+    margin-top: 1%;
+    font-family: 'Myfont';
+    font-weight: 200;
+    position: sticky;
+}
+
+
+.titletext {
+    color: rgb(219, 219, 219);
+    margin: 10px;
+    transform: translate(5px);
+}

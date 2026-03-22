@@ -1,0 +1,25 @@
+.mainpagetitle {
+    color: whitesmoke;
+    margin-left: 10px;
+    transition: 0.3s;
+    transform-origin: left center;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.mainpagetitle h1,
+.mainpagetitle p {
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
