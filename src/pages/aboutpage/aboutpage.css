@@ -1,0 +1,7 @@
+.aboutwholetext * {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 20;
+    margin-left: 5vw;
+}

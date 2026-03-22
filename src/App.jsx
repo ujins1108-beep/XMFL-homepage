@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, Navigate } from "react-router-dom";
 import Mainpage from "./pages/mainpage/mainpage.jsx";
+import {Aboutpage} from "./pages/aboutpage/aboutpage.jsx";
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/mainpage" replace />} />
         <Route path="/mainpage" element={<Mainpage />} />
+        <Route path="/aboutpage" element={<Aboutpage />} />
       </Routes>
     </>
   )

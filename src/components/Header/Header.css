@@ -9,14 +9,50 @@
     margin: 0 auto;
     box-shadow: 0 3px 30px rgb(18, 18, 18);
     margin-top: 1%;
-    font-family: 'Myfont';
+    font-family: 'MyFont';
     font-weight: 200;
     position: sticky;
+    color: rgb(219, 219, 219);
 }
 
 
 .titletext {
-    color: rgb(219, 219, 219);
-    margin: 10px;
-    transform: translate(5px);
+    margin: 0;
+    font-size: 4vh;
+    font-weight: 800;
 }
+
+.wholetext {
+    display: flex;
+    flex-direction: row;
+    gap: 18%;
+}
+
+.Logoheader {
+    width: 8vw;
+    height: 60%;
+    background-color: rgb(18, 18, 18);
+    z-index: -1;
+    border-radius: 100px;
+}
+
+.title {
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Logoheader,
+.titletext {
+  grid-area: 1 / 1;
+}
+
+.Aboutpage {
+    font-weight: 300;
+}
+
+.Navtitle {
+    cursor: pointer;
+}
+
